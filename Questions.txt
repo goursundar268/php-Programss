@@ -1,0 +1,84 @@
+Assignment 1 :
+1.1 Write a php program to print your name.
+1.2 Write a php program to print your name with a variable.
+1.3 Write a php program that includes HTML code.
+1.4 Write a php program that shows echo is not case sensitive word.
+1.5 Write a php program to identify data type of the variable.
+1.6 Write a php program to convert strings from lower to upper or upper to lower and also replace words by an another word.
+1.7 Write a php program to typecast from one type to another type.
+1.8 Write a php program to show a global variable is used by n number of fumctions.
+
+Assignment 2 : 
+2.1 Write a php program to use variable with the global keyword.
+2.2 Write a php program to use a static variable.
+2.3 Write a php program to print using print and echo function.
+2.4 Write a php program to find out the length of a string.
+2.5 Write a php program to search or searching the position of a string in the text.
+2.6 Write a php program to reverse a string.
+2.7 Write a php program to concatenate strings.
+
+Assignment 3 :
+3.1 Write a php program to show a text from a particular position (from first position). 
+3.2 Write a php program to show a text from a particular position (from end).
+3.3 Write a php program that puts a normal string into an array from 0 index.
+3.4 Write a php program to show maximum and minimum number with max and min function.
+3.5 Write a php program to find out the square root of a number.
+3.6 Write a php program to find out the random number.
+3.7 Write a php program to find out 50 years old person is an aged or not-aged person using if condition.
+3.8 Write a php program to show 60 years person is aged or non-aged person using if-else condition.
+3.9 Write a php program to find out a number is odd or even.
+3.10 Write a php program to find out the grade of a  particular subject.
+
+Assignment 4 : 
+4.1 Write a php program to find out the grade of a number using switch case.
+4.2 Write a php program to show a number is your choice or not using switch case.
+4.3 Write a php program to show a character exists in two cases or in combine case.
+4.4 Write a php program to find out the factorial of a number for loop in php.
+4.5 Write a php program to sum of n numbers using for loop.
+4.6 Write a php program to find odd and even upto n numbers.
+4.7 Write a php program to find the sum of odd and even upto n numbers.
+
+Assignment 5 : 
+5.1 Write a php progam to find out the odd sum and even sum using while and do-while loop.
+5.2 Write a php program to print n numbers using foreach loop using array.
+5.3 Write a php program to use break keyword in loop statement.
+5.4 Write a php program to use continue keyword in loop statement.
+5.5 Write a php program to print yout name using function.
+5.6 Write a php program to print cricket player's name 5 times by passing arguments through functions.
+5.7 Write a php program to use two or more arguments with php function call.
+5.8 Write a php program to find out the summation of two numbers that returns the result to the calling function.
+
+Assignment 6 : 
+6.1 Write a php program to add element/elements to an existing array.
+6.2 Write a php program to remove element/elements from an existing array.
+6.3 Write a php program to sort string elements in ascending & descending order.
+6.4 Write a php program to sort numeric elements in ascending & descending order.
+6.5 Write a php program to print names and their address using 2D array.
+6.6 Write a php program to print multi-dimensional array.
+6.7 Write a php program to delete elements using unset() function.
+
+Assignment 7 : 
+7.1 Write a php program to show the sum of digits of a number.
+7.2 Write a php program to find out the prime number upto n numbers.
+7.3 Write a php program to find out a number is Armstrong or not.
+7.4 Write a php program to find out a number is Palindrome or not.
+7.5 Write a php program to reverse a number.
+
+Assignment 8 : 
+8.1 Write a php program to show a number is a Palindrome or not.
+8.2 Write a php program to find out the oddsum and evensum upto n numbers.
+8.3 Write a php program to find out the roots of the quadratic equation.
+8.4 Write a HTML code to create a form with the following fields: Student Code, Student name, semester, mob no.
+
+Assignment 9 : 
+9.1 Write a html code to make the form with the following fields: Student Code, name, DOB, Father's name, Mother's name, Address, Year of Class X Marks, Division of Class X and XII, Gender, Mobile-no, Email-ID, ABCid, Caste, Nationality, Hobbies, Identification marks, height, future goals, photo.
+
+Assignment 10 : 
+10.1 Write a php program to create and show 1st sem marksheet with the following fields: Code, name, sub1 marks, sub2 marks, sub3 marks, sub4 marks, Total Marks, Grade.
+10.2 Write a SQL code to craete and insert data of Sem1 marksheet into a table.
+
+Assignment 11 : 
+11.1 Write a SQL code to insert data into 1st sem, 2nd sem and 3rd sem marksheet.
+
+Assignment 12 : 
+12.1 Write a PHP program to connect the database write all the steps how to connect with MySQL database.
