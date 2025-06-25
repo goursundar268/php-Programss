@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd Sem Marksheet</title>
+</head>
+<body>
+    <h2>2nd Sem Marksheet</h2>
+    <form action="2nd_sem.php" method="post">
+        <label for="std_code">Student Code: </label>
+        <input type="text" name="std_code" required><br><br>
+
+        <label for="name">Student Name: </label>
+        <input type="text" name="name" required><br>
+
+        <h4>Marks of All Subjects: </h4>
+
+        <label for="dsa">Data Structure and Algorithm: </label>
+        <input type="number" name="dsa" min="0" max="100" required><br><br>
+
+        <label for="python">Programming in Python: </label>
+        <input type="number" name="python" min="0" max="100" required><br><br>
+
+        <label for="communicative_eng">Communicative English: </label>
+        <input type="number" name="communicative_eng" min="0" max="100" required><br><br>
+
+        <label for="evs">Environmental Studies: </label>
+        <input type="number" name="evs" min="0" max="100" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

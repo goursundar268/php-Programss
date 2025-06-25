@@ -1,0 +1,77 @@
+CREATE TABLE SEM1
+(
+    CODE VARCHAR(15) primary key,
+    NAME VARCHAR(20),
+    sem1_sub1_marks number,
+    sem1_sub2_marks number,
+    sem1_sub3_marks number,
+    sem1_sub4_marks number,
+    sem1_total_marks number,
+    sem1_grade VARCHAR(3)
+)
+
+
+select * from SEM1
+
+insert into SEM1 values ('BWU/BCA/23/100','Arjun Sharma',85,75,44,87,291,'A')
+insert into SEM1 values ('BWU/BCA/23/101','Bipasha Saha',88,75,58,68,289,'A')
+insert into SEM1 values ('BWU/BCA/23/102','Arun Maity',77,98,87,85,347,'A')
+
+
+CREATE TABLE SEM2
+(
+    CODE VARCHAR(15) primary key,
+    NAME VARCHAR(20),
+    sem2_sub1_marks number,
+    sem2_sub2_marks number,
+    sem2_sub3_marks number,
+    sem2_sub4_marks number,
+    sem2_total_marks number,
+    sem2_grade VARCHAR(3)
+)
+
+select * from SEM2
+
+insert into SEM2 values ('BWU/BCA/23/100','Arjun Sharma',77,85,99,78,339,'A')
+insert into SEM2 values ('BWU/BCA/23/101','Bipasha Saha',55,78,53,94,280,'A')
+insert into SEM2 values ('BWU/BCA/23/102','Arun Maity',88,87,68,78,321,'A')
+
+
+CREATE TABLE SEM3
+(
+    CODE VARCHAR(15) primary key,
+    NAME VARCHAR(20),
+    sem3_sub1_marks number,
+    sem3_sub2_marks number,
+    sem3_sub3_marks number,
+    sem3_sub4_marks number,
+    sem3_total_marks number,
+    sem3_grade VARCHAR(3)
+)
+
+select * from SEM3
+
+insert into SEM3 values ('BWU/BCA/23/100','Arjun Sharma',95,80,87,68,330,'A')
+insert into SEM3 values ('BWU/BCA/23/101','Bipasha Saha',87,68,77,91,323,'A')
+insert into SEM3 values ('BWU/BCA/23/102','Arun Maity',50,84,54,82,270,'B+')
+
+-- Find the marks of Code no. 101 from Sem1 table 
+select Code, sem1_sub1_marks, sem1_sub2_marks, sem1_sub3_marks, sem1_sub4_marks
+from SEM1
+where CODE = 'BWU/BCA/23/101'
+
+
+-- Retrieve the marks of SEM1 and SEM2 where code = 101
+select s1.code, s1.sem1_sub1_marks, s1.sem1_sub2_marks, s1.sem1_sub3_marks, s1.sem1_sub4_marks, 
+s2.sem2_sub1_marks, s2.sem2_sub2_marks, s2.sem2_sub3_marks, s2.sem2_sub4_marks
+from SEM1 s1, SEM2 s2
+where s1.code = s2.code 
+and s1.code = 'BWU/BCA/23/101'
+
+-- Retrieve the marks of SEM1 and SEM2 where code = 101 using JOIN keyword
+select s1.code, s1.sem1_sub1_marks, s1.sem1_sub2_marks, s1.sem1_sub3_marks, s1.sem1_sub4_marks, 
+s2.sem2_sub1_marks, s2.sem2_sub2_marks, s2.sem2_sub3_marks, s2.sem2_sub4_marks 
+from SEM1 s1 
+JOIN SEM2 s2 
+on s1.code = s2.code
+and s1.code = 'BWU/BCA/23/101'
